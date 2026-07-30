@@ -1,0 +1,55 @@
+.article-page {
+  min-height: 100vh;
+  padding: 24px 0 80px;
+  background: #000;
+  color: #fff;
+  font-family: "JetBrains Mono", monospace;
+}
+
+.article-shell {
+  width: min(calc(100% - 24px), 900px);
+  margin: 0 auto;
+  border: 1px solid #FF0000;
+  background: #000;
+}
+
+.article-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 16px 20px;
+  border-bottom: 1px solid #FF0000;
+  color: #FF0000;
+}
+
+.article-content {
+  padding: 48px 28px 60px;
+}
+
+.article-content h1 {
+  margin: 0 0 18px;
+  color: #FF0000;
+  font-size: clamp(2rem, 8vw, 4.5rem);
+  line-height: 1.05;
+}
+
+.article-content h2 {
+  margin-top: 42px;
+  color: #FF0000;
+}
+
+.article-content p {
+  color: #B7B7B7;
+}
+
+.back-link {
+  color: #FF0000;
+  text-decoration: none;
+}
+
+.note {
+  margin-top: 38px;
+  padding: 20px;
+  border: 1px solid #FF0000;
+  color: #B7B7B7;
+}
