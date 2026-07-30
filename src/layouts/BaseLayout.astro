@@ -1,7 +1,0 @@
----
-import "../styles/global.css";
-const { title="Abdalla | Psychology Graduate", description="Abdalla psychology portfolio and blog." }=Astro.props;
----
-<!doctype html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><meta name="description" content={description}><title>{title}</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet"></head><body><div class="page-grid" aria-hidden="true"></div><div class="scanlines" aria-hidden="true"></div><slot/><script>
-const b=document.querySelector('.menu-toggle'),n=document.querySelector('.main-nav');b?.addEventListener('click',()=>{const o=n?.classList.toggle('open')??false;b.setAttribute('aria-expanded',String(o))});n?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{n.classList.remove('open');b?.setAttribute('aria-expanded','false')}));const u=document.getElementById('uptime'),s=Date.now();function tick(){if(!u)return;const e=Math.floor((Date.now()-s)/1000);u.textContent=[Math.floor(e/3600),Math.floor(e%3600/60),e%60].map(v=>String(v).padStart(2,'0')).join(':')}tick();setInterval(tick,1000);
-</script></body></html>
