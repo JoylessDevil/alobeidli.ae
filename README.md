@@ -1,4 +1,4 @@
-# Abdalla Cyber Portfolio
+# README
 
 A static terminal-style portfolio built with HTML, CSS, and JavaScript.
 
