@@ -1,6 +1,6 @@
 # README
 
-A static terminal-style portfolio built with HTML, CSS, and JavaScript.
+A static terminal-style portfolio built with HTML, CSS, and JavaScript
 
 ## Files
 
